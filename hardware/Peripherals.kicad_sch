@@ -4289,7 +4289,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0618bc34-ba50-4cdd-92f0-9c2671c2d9ed")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR013"
 			(at 130.81 130.81 0)
 			(effects
 				(font
@@ -4361,7 +4361,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07b895d0-e71a-42bf-bcbf-f7960070b3e7")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR012"
 			(at 81.28 53.34 0)
 			(effects
 				(font
@@ -4433,7 +4433,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25f3d2e1-2de1-463a-9004-0c93ffb5bc73")
-		(property "Reference" "U?"
+		(property "Reference" "U3"
 			(at 83.4233 60.96 0)
 			(effects
 				(font
@@ -4451,7 +4451,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
 			(at 82.55 118.11 0)
 			(effects
 				(font
@@ -4551,7 +4551,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2a1a577f-774c-4eda-ba9b-0ebeb264a96a")
-		(property "Reference" "D?"
+		(property "Reference" "D2"
 			(at 227.584 75.438 0)
 			(effects
 				(font
@@ -4631,7 +4631,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b17e494-2cdc-44c6-9c1c-b1e57ada328c")
-		(property "Reference" "C?"
+		(property "Reference" "C5"
 			(at 111.76 71.1199 0)
 			(effects
 				(font
@@ -4707,7 +4707,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "35e4d575-8485-42ee-9ecd-653034ff1f4d")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR07"
 			(at 185.42 113.03 0)
 			(effects
 				(font
@@ -4778,7 +4778,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3678130e-ee61-4afa-9d86-2adc4de6bba4")
-		(property "Reference" "U?"
+		(property "Reference" "U1"
 			(at 210.4233 44.45 0)
 			(effects
 				(font
@@ -4872,7 +4872,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ca56c8a-5a38-48f6-a86f-23d1223d0c8c")
-		(property "Reference" "R?"
+		(property "Reference" "R3"
 			(at 177.8 45.7199 0)
 			(effects
 				(font
@@ -4890,7 +4890,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 173.482 46.99 90)
 			(effects
 				(font
@@ -4948,7 +4948,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "469d97a6-dd41-40a2-b8a7-fefdcd4d3f44")
-		(property "Reference" "R?"
+		(property "Reference" "R2"
 			(at 193.04 74.9299 0)
 			(effects
 				(font
@@ -4966,7 +4966,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 188.722 76.2 90)
 			(effects
 				(font
@@ -5024,7 +5024,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "4aa718d2-b190-4de7-94d7-8252800e02b8")
-		(property "Reference" "R?"
+		(property "Reference" "R5"
 			(at 242.57 46.9899 0)
 			(effects
 				(font
@@ -5042,7 +5042,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 238.252 48.26 90)
 			(effects
 				(font
@@ -5100,7 +5100,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "50c30fac-c4dc-4196-a5dd-40bf292434e0")
-		(property "Reference" "J?"
+		(property "Reference" "J3"
 			(at 125.73 97.7899 0)
 			(effects
 				(font
@@ -5180,7 +5180,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "51361579-6433-474d-a407-b3c1c39e38b1")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR03"
 			(at 208.28 90.17 0)
 			(effects
 				(font
@@ -5252,7 +5252,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "546d5d9d-e35a-45f8-8755-6072dfeb20fa")
-		(property "Reference" "D?"
+		(property "Reference" "D1"
 			(at 222.25 135.89 0)
 			(effects
 				(font
@@ -5331,7 +5331,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "5890bcc4-5cc5-4de5-bb9e-17dea1b94d94")
-		(property "Reference" "R?"
+		(property "Reference" "R9"
 			(at 243.84 143.5099 0)
 			(effects
 				(font
@@ -5407,7 +5407,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f778bee-14d8-42f8-8edb-81b7ec061db9")
-		(property "Reference" "C?"
+		(property "Reference" "C7"
 			(at 147.32 104.1399 0)
 			(effects
 				(font
@@ -5482,7 +5482,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "67776415-9b06-47e9-b2e6-cde79f56de4e")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR05"
 			(at 240.03 90.17 0)
 			(effects
 				(font
@@ -5554,7 +5554,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "696a8727-6ec0-4055-a5fb-2fdb2a6a9b9c")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR01"
 			(at 175.26 40.64 0)
 			(effects
 				(font
@@ -5625,7 +5625,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6b937cdc-6ae0-4811-b75a-74f3babd9a25")
-		(property "Reference" "R?"
+		(property "Reference" "R8"
 			(at 243.84 128.2699 0)
 			(effects
 				(font
@@ -5643,7 +5643,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 239.522 129.54 90)
 			(effects
 				(font
@@ -5701,7 +5701,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e8598e5-7522-439c-a402-f1520b86cf5c")
-		(property "Reference" "C?"
+		(property "Reference" "C1"
 			(at 195.58 41.9099 0)
 			(effects
 				(font
@@ -5776,7 +5776,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "705f0920-60b4-4d6b-821e-c041e1e0d79d")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR09"
 			(at 191.77 55.88 0)
 			(effects
 				(font
@@ -5848,7 +5848,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "751730d4-3eaa-43cc-8cc5-78c16f9714af")
-		(property "Reference" "C?"
+		(property "Reference" "C6"
 			(at 134.62 104.1399 0)
 			(effects
 				(font
@@ -5924,7 +5924,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8060995a-9964-4e56-9294-20db866cbb33")
-		(property "Reference" "C?"
+		(property "Reference" "C2"
 			(at 189.23 113.0299 0)
 			(effects
 				(font
@@ -6000,7 +6000,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "84ccfbb5-e0ff-4124-a03b-c38be817d0b2")
-		(property "Reference" "C?"
+		(property "Reference" "C4"
 			(at 53.34 71.1199 0)
 			(effects
 				(font
@@ -6075,7 +6075,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "84d5e511-9ebe-4038-87b9-35c2219d090a")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR08"
 			(at 185.42 127 0)
 			(effects
 				(font
@@ -6146,7 +6146,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "93b39c97-2653-408e-af38-773ec1ffb3e3")
-		(property "Reference" "R?"
+		(property "Reference" "R1"
 			(at 242.57 63.4999 0)
 			(effects
 				(font
@@ -6164,7 +6164,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 238.252 64.77 90)
 			(effects
 				(font
@@ -6221,7 +6221,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9b9dd4d7-8741-4262-81ca-70d356c00641")
-		(property "Reference" "TP?"
+		(property "Reference" "TP1"
 			(at 186.69 54.61 0)
 			(effects
 				(font
@@ -6294,7 +6294,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9c0cd022-411a-4624-a1c3-e50f17bbcc24")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR06"
 			(at 241.3 157.48 0)
 			(effects
 				(font
@@ -6365,7 +6365,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9fe76dac-6941-420f-90b8-0f6efa37c713")
-		(property "Reference" "TP?"
+		(property "Reference" "TP2"
 			(at 195.58 54.61 0)
 			(effects
 				(font
@@ -6439,7 +6439,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a04ce128-bdf6-481d-bb4a-a2c166e8ff22")
-		(property "Reference" "R?"
+		(property "Reference" "R4"
 			(at 177.8 74.9299 0)
 			(effects
 				(font
@@ -6457,7 +6457,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 173.482 76.2 90)
 			(effects
 				(font
@@ -6515,7 +6515,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a14d9c7f-444f-4ce7-b737-902912a66b93")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR04"
 			(at 200.66 158.75 0)
 			(effects
 				(font
@@ -6587,7 +6587,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac46e52c-387a-4ba2-9406-a1d0ddcc967b")
-		(property "Reference" "J?"
+		(property "Reference" "J2"
 			(at 259.08 128.2699 0)
 			(effects
 				(font
@@ -6664,7 +6664,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "aeb06e5b-34ff-4563-894a-6c0444eb82e3")
-		(property "Reference" "R?"
+		(property "Reference" "R7"
 			(at 243.84 113.0299 0)
 			(effects
 				(font
@@ -6740,7 +6740,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4147c85-0b34-4f74-9e2c-c988fc6fc432")
-		(property "Reference" "J?"
+		(property "Reference" "J1"
 			(at 259.08 63.4999 0)
 			(effects
 				(font
@@ -6816,7 +6816,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ba5e06d9-8b80-4aaf-9ee5-81bf74fde023")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR014"
 			(at 114.3 106.68 0)
 			(effects
 				(font
@@ -6887,7 +6887,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c27f3b35-f6ed-4ea5-87fa-2b65c3befe19")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR011"
 			(at 102.87 67.31 0)
 			(effects
 				(font
@@ -6959,7 +6959,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4f6bd26-98f0-475f-a86d-9540fae85e05")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR02"
 			(at 240.03 41.91 0)
 			(effects
 				(font
@@ -7031,7 +7031,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca50c7e2-a759-4cfd-bb71-3b5b5b91bcb3")
-		(property "Reference" "C?"
+		(property "Reference" "C3"
 			(at 106.68 54.6099 0)
 			(effects
 				(font
@@ -7107,7 +7107,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd66e1a3-4863-49c0-bb9b-1c81f5094733")
-		(property "Reference" "D?"
+		(property "Reference" "D3"
 			(at 114.3 111.7599 0)
 			(effects
 				(font
@@ -7187,7 +7187,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8fb291b-e029-4d7a-9629-c61b3878e2fb")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR010"
 			(at 81.28 130.81 0)
 			(effects
 				(font
@@ -7259,7 +7259,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "de61f140-f28c-4db4-82c5-c92d51ac85e8")
-		(property "Reference" "R?"
+		(property "Reference" "R6"
 			(at 242.57 76.1999 0)
 			(effects
 				(font
@@ -7277,7 +7277,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 238.252 77.47 90)
 			(effects
 				(font
@@ -7334,7 +7334,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ef911d22-17ea-40e7-a1f9-a984501e9dcf")
-		(property "Reference" "U?"
+		(property "Reference" "U2"
 			(at 202.8033 114.3 0)
 			(effects
 				(font
