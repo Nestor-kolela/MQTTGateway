@@ -1025,6 +1025,90 @@
 		)
 	)
 	(sheet
+		(at 167.64 43.18)
+		(size 22.86 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "399015c2-6547-45ba-99d6-e9d0efcd95ce")
+		(property "Sheetname" "Inputs_Iso"
+			(at 167.64 42.4684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Inputs_Iso.kicad_sch"
+			(at 167.64 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MQTTGateway"
+				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 167.64 82.55)
+		(size 22.86 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3bdffd2f-f59f-4757-8c7c-f0054b898499")
+		(property "Sheetname" "Outputs_ISOL"
+			(at 167.64 81.8384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Outputs_ISOL.kicad_sch"
+			(at 167.64 105.9946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MQTTGateway"
+				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 127 114.3)
 		(size 25.4 21.59)
 		(exclude_from_sim no)

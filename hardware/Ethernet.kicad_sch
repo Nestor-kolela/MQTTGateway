@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "743b5822-f1c9-4aca-9316-4f381d19ed01")
 	(paper "A4")
+	(title_block
+		(title "MQTT Gateway")
+		(date "2026-03-13")
+		(rev "V1.0.0")
+		(company "FEYTECH PTY LTD")
+	)
 	(lib_symbols
 		(symbol "Connector:RJ45_Amphenol_RJMG1BD3B8K1ANR"
 			(exclude_from_sim no)
