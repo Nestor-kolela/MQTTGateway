@@ -7206,7 +7206,7 @@
 	(symbol
 		(lib_id "Amplifier_Operational:MCP6004")
 		(at 156.21 83.82 0)
-		(unit 1)
+		(unit 5)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -7231,7 +7231,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 154.94 81.28 0)
 			(effects
 				(font
@@ -7304,7 +7304,7 @@
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/05fd85a5-633a-4085-b17c-4093445eb99c"
 					(reference "U10")
-					(unit 1)
+					(unit 5)
 				)
 			)
 			(project ""
@@ -8223,13 +8223,13 @@
 		(lib_id "Amplifier_Operational:MCP6004")
 		(at 240.03 129.54 0)
 		(mirror x)
-		(unit 1)
+		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "385d2c72-2cf3-4f4c-9b27-567fd506d69b")
-		(property "Reference" "U14"
+		(property "Reference" "U10"
 			(at 240.03 139.7 0)
 			(effects
 				(font
@@ -8245,7 +8245,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 238.76 132.08 0)
 			(effects
 				(font
@@ -8317,8 +8317,8 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/05fd85a5-633a-4085-b17c-4093445eb99c"
-					(reference "U14")
-					(unit 1)
+					(reference "U10")
+					(unit 4)
 				)
 			)
 			(project ""
@@ -8339,7 +8339,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3b0ae0a9-6e34-4a6a-a6f9-2ee0671916fe")
-		(property "Reference" "U11"
+		(property "Reference" "U10"
 			(at 240.03 44.45 0)
 			(effects
 				(font
@@ -8355,7 +8355,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 238.76 36.83 0)
 			(effects
 				(font
@@ -8427,7 +8427,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/05fd85a5-633a-4085-b17c-4093445eb99c"
-					(reference "U11")
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -12641,13 +12641,13 @@
 		(lib_id "Amplifier_Operational:MCP6004")
 		(at 240.03 66.04 0)
 		(mirror x)
-		(unit 1)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "cd44c4f3-a73d-49d5-83e6-36f149e2231d")
-		(property "Reference" "U12"
+		(property "Reference" "U10"
 			(at 240.03 76.2 0)
 			(effects
 				(font
@@ -12663,7 +12663,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 238.76 68.58 0)
 			(effects
 				(font
@@ -12735,8 +12735,8 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/05fd85a5-633a-4085-b17c-4093445eb99c"
-					(reference "U12")
-					(unit 1)
+					(reference "U10")
+					(unit 2)
 				)
 			)
 			(project ""
@@ -12976,13 +12976,13 @@
 		(lib_id "Amplifier_Operational:MCP6004")
 		(at 240.03 97.79 0)
 		(mirror x)
-		(unit 1)
+		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "e29e8d3d-b3da-4d83-8050-afc0c097711b")
-		(property "Reference" "U13"
+		(property "Reference" "U10"
 			(at 240.03 107.95 0)
 			(effects
 				(font
@@ -12998,7 +12998,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 238.76 100.33 0)
 			(effects
 				(font
@@ -13070,8 +13070,8 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/05fd85a5-633a-4085-b17c-4093445eb99c"
-					(reference "U13")
-					(unit 1)
+					(reference "U10")
+					(unit 3)
 				)
 			)
 			(project ""
