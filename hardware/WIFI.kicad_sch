@@ -1533,7 +1533,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "39996b7f-f514-4847-8103-727a795c801c")
-		(property "Reference" "C?"
+		(property "Reference" "C50"
 			(at 140.716 57.15 0)
 			(effects
 				(font
@@ -1587,85 +1587,13 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/fcfc62c3-e367-4479-8d95-a00378eb0f82"
-					(reference "C?")
+					(reference "C50")
 					(unit 1)
 				)
 			)
 			(project "WIFI"
 				(path "/0fc824bd-7cd8-4f9b-8387-ef1499f470b4"
 					(reference "C?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 127 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4419f43a-4d47-4ac4-baf6-dead66265f69")
-		(property "Reference" "#PWR?"
-			(at 127 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 127 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 127 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 127 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "483deda4-7e1d-48c7-8032-92dba31598a4")
-		)
-		(instances
-			(project "MQTTGateway"
-				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/fcfc62c3-e367-4479-8d95-a00378eb0f82"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-			(project "WIFI"
-				(path "/0fc824bd-7cd8-4f9b-8387-ef1499f470b4"
-					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -1680,7 +1608,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4507cdbc-2750-4db3-b928-3ce2cf53dae4")
-		(property "Reference" "C?"
+		(property "Reference" "C49"
 			(at 129.286 57.15 0)
 			(effects
 				(font
@@ -1734,7 +1662,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/fcfc62c3-e367-4479-8d95-a00378eb0f82"
-					(reference "C?")
+					(reference "C49")
 					(unit 1)
 				)
 			)
@@ -1756,7 +1684,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6554a5dd-3721-43f3-a66d-e42d8c6a63a8")
-		(property "Reference" "U?"
+		(property "Reference" "U6"
 			(at 164.7033 63.5 0)
 			(effects
 				(font
@@ -1921,7 +1849,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/fcfc62c3-e367-4479-8d95-a00378eb0f82"
-					(reference "U?")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -1942,7 +1870,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ae94e4e9-bbef-404a-bfaf-2d878c90de9e")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR043"
 			(at 127 73.66 0)
 			(effects
 				(font
@@ -1992,7 +1920,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/fcfc62c3-e367-4479-8d95-a00378eb0f82"
-					(reference "#PWR?")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -2013,7 +1941,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bafbd7c5-724f-4870-810e-87f6a5a9b6c4")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR044"
 			(at 162.56 146.05 0)
 			(effects
 				(font
@@ -2063,7 +1991,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/fcfc62c3-e367-4479-8d95-a00378eb0f82"
-					(reference "#PWR?")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -2084,7 +2012,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ce972dc4-6bb4-4764-9a57-208053a15c6f")
-		(property "Reference" "C?"
+		(property "Reference" "C51"
 			(at 149.606 57.15 0)
 			(effects
 				(font
@@ -2138,13 +2066,85 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/fcfc62c3-e367-4479-8d95-a00378eb0f82"
-					(reference "C?")
+					(reference "C51")
 					(unit 1)
 				)
 			)
 			(project "WIFI"
 				(path "/0fc824bd-7cd8-4f9b-8387-ef1499f470b4"
 					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 127 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d32b30ae-7ed0-4700-84d4-24a4803598b5")
+		(property "Reference" "#PWR042"
+			(at 127 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 127 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 127 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "483deda4-7e1d-48c7-8032-92dba31598a4")
+		)
+		(instances
+			(project "MQTTGateway"
+				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/fcfc62c3-e367-4479-8d95-a00378eb0f82"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+			(project "WIFI"
+				(path "/0fc824bd-7cd8-4f9b-8387-ef1499f470b4"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)

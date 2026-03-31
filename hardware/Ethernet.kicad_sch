@@ -4663,6 +4663,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 31.75) (xy 140.97 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "921889df-d439-4751-a650-9fead8b9c558")
+	)
+	(wire
+		(pts
 			(xy 248.92 120.65) (xy 252.73 120.65)
 		)
 		(stroke
@@ -5571,7 +5581,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02bbe363-2ca1-4e82-9fbe-42d242ffaf7c")
-		(property "Reference" "R?"
+		(property "Reference" "R12"
 			(at 43.18 111.7599 0)
 			(effects
 				(font
@@ -5625,7 +5635,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/602799df-dfd4-4aef-8cfd-8ceecb64908b"
-					(reference "R?")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -5647,7 +5657,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "035f3643-0a93-4ea5-9336-f68bd1fec0c2")
-		(property "Reference" "R?"
+		(property "Reference" "R21"
 			(at 157.48 137.1599 0)
 			(effects
 				(font
@@ -5701,7 +5711,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/602799df-dfd4-4aef-8cfd-8ceecb64908b"
-					(reference "R?")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -5722,7 +5732,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0d28a48f-ea0e-4d07-95b0-d1ea0caa43a1")
-		(property "Reference" "R?"
+		(property "Reference" "R23"
 			(at 167.64 100.3299 0)
 			(effects
 				(font
@@ -5776,7 +5786,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/602799df-dfd4-4aef-8cfd-8ceecb64908b"
-					(reference "R?")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -5797,7 +5807,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "100a7356-66ee-455a-a66a-90701218c58d")
-		(property "Reference" "R?"
+		(property "Reference" "R17"
 			(at 77.216 115.824 0)
 			(effects
 				(font
@@ -5851,7 +5861,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/602799df-dfd4-4aef-8cfd-8ceecb64908b"
-					(reference "R?")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -5872,7 +5882,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "150ef7d8-a27c-4d3c-b112-0d334c0458eb")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR031"
 			(at 127 157.48 0)
 			(effects
 				(font
@@ -5922,7 +5932,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/602799df-dfd4-4aef-8cfd-8ceecb64908b"
-					(reference "#PWR?")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -5943,7 +5953,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "16cb9c19-87f4-4196-9505-f93e2542dd06")
-		(property "Reference" "R?"
+		(property "Reference" "R19"
 			(at 93.726 114.3 90)
 			(effects
 				(font
@@ -5995,7 +6005,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/602799df-dfd4-4aef-8cfd-8ceecb64908b"
-					(reference "R?")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -6016,7 +6026,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1bd4c850-6d8e-408c-876a-04732154dc64")
-		(property "Reference" "C?"
+		(property "Reference" "C33"
 			(at 58.42 77.4699 0)
 			(effects
 				(font
@@ -6070,7 +6080,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/602799df-dfd4-4aef-8cfd-8ceecb64908b"
-					(reference "C?")
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -6092,7 +6102,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21eace71-ba46-446d-ab88-f036e6fba0ba")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR032"
 			(at 134.62 86.36 0)
 			(effects
 				(font
@@ -6142,7 +6152,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/602799df-dfd4-4aef-8cfd-8ceecb64908b"
-					(reference "#PWR?")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -6164,7 +6174,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "22999d92-da3c-4f32-a415-b7f27ddb1829")
-		(property "Reference" "C?"
+		(property "Reference" "C48"
 			(at 191.77 124.4599 0)
 			(effects
 				(font
@@ -6218,7 +6228,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/602799df-dfd4-4aef-8cfd-8ceecb64908b"
-					(reference "C?")
+					(reference "C48")
 					(unit 1)
 				)
 			)
@@ -6240,7 +6250,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "29195a52-dafd-4245-a1ab-6566c8a1afe2")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR034"
 			(at 151.13 86.36 0)
 			(effects
 				(font
@@ -6290,7 +6300,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/602799df-dfd4-4aef-8cfd-8ceecb64908b"
-					(reference "#PWR?")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -6312,7 +6322,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "29f5694f-abee-4bac-b723-883c30c66dd2")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR026"
 			(at 54.61 73.66 0)
 			(effects
 				(font
@@ -6362,7 +6372,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/602799df-dfd4-4aef-8cfd-8ceecb64908b"
-					(reference "#PWR?")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -6384,7 +6394,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2abd423d-2408-41a9-b634-fa5f3ab23ba1")
-		(property "Reference" "R?"
+		(property "Reference" "R15"
 			(at 55.88 148.5899 0)
 			(effects
 				(font
@@ -6438,7 +6448,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/602799df-dfd4-4aef-8cfd-8ceecb64908b"
-					(reference "R?")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -6459,7 +6469,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3108932d-47d7-4017-b9f2-eb6f61f12d72")
-		(property "Reference" "C?"
+		(property "Reference" "C45"
 			(at 144.78 40.6399 0)
 			(effects
 				(font
@@ -6513,7 +6523,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/602799df-dfd4-4aef-8cfd-8ceecb64908b"
-					(reference "C?")
+					(reference "C45")
 					(unit 1)
 				)
 			)
@@ -6534,7 +6544,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "31af8d5d-6260-4983-84a8-7a35665b58bd")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR039"
 			(at 241.3 138.43 0)
 			(effects
 				(font
@@ -6584,7 +6594,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/602799df-dfd4-4aef-8cfd-8ceecb64908b"
-					(reference "#PWR?")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -6605,7 +6615,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "392de670-ee90-452c-8f31-2bf909d3456b")
-		(property "Reference" "C?"
+		(property "Reference" "C39"
 			(at 99.314 150.114 0)
 			(effects
 				(font
@@ -6659,7 +6669,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/602799df-dfd4-4aef-8cfd-8ceecb64908b"
-					(reference "C?")
+					(reference "C39")
 					(unit 1)
 				)
 			)
@@ -6681,7 +6691,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4058a51e-4aef-492f-9bf8-927dc1b28042")
-		(property "Reference" "#FLG?"
+		(property "Reference" "#FLG05"
 			(at 102.87 67.945 0)
 			(effects
 				(font
@@ -6731,11 +6741,83 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/602799df-dfd4-4aef-8cfd-8ceecb64908b"
-					(reference "#FLG?")
+					(reference "#FLG05")
 					(unit 1)
 				)
 			)
 			(project ""
+				(path "/743b5822-f1c9-4aca-9316-4f381d19ed01"
+					(reference "#FLG?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 140.97 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "44dbe13c-d7bd-4046-b41d-50fe529d9b4b")
+		(property "Reference" "#FLG06"
+			(at 140.97 29.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 140.97 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 140.97 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1247a381-d445-4313-8e19-4f0bbff05a80")
+		)
+		(instances
+			(project ""
+				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/602799df-dfd4-4aef-8cfd-8ceecb64908b"
+					(reference "#FLG06")
+					(unit 1)
+				)
+			)
+			(project "Ethernet"
 				(path "/743b5822-f1c9-4aca-9316-4f381d19ed01"
 					(reference "#FLG?")
 					(unit 1)
@@ -6752,7 +6834,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "456b6d66-c99f-4648-9d4e-264db2590731")
-		(property "Reference" "R?"
+		(property "Reference" "R16"
 			(at 64.516 115.824 0)
 			(effects
 				(font
@@ -6806,7 +6888,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/602799df-dfd4-4aef-8cfd-8ceecb64908b"
-					(reference "R?")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -6828,7 +6910,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "496decb1-478d-48ab-8bcb-225170c5cdb1")
-		(property "Reference" "Q?"
+		(property "Reference" "Q1"
 			(at 66.04 143.5099 0)
 			(effects
 				(font
@@ -6888,7 +6970,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/602799df-dfd4-4aef-8cfd-8ceecb64908b"
-					(reference "Q?")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -6909,7 +6991,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4ac25327-6240-49a0-83db-6e9aea4243f9")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR038"
 			(at 187.96 137.16 0)
 			(effects
 				(font
@@ -6959,7 +7041,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/602799df-dfd4-4aef-8cfd-8ceecb64908b"
-					(reference "#PWR?")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -6981,7 +7063,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "58658d87-c3d8-43b5-b6f2-8c4de0c199e7")
-		(property "Reference" "C?"
+		(property "Reference" "C41"
 			(at 111.76 40.6399 0)
 			(effects
 				(font
@@ -7035,7 +7117,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/602799df-dfd4-4aef-8cfd-8ceecb64908b"
-					(reference "C?")
+					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -7056,7 +7138,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "58fd8d19-a1a4-42c1-89b3-7c1572a5a46f")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR028"
 			(at 86.36 162.56 0)
 			(effects
 				(font
@@ -7106,7 +7188,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/602799df-dfd4-4aef-8cfd-8ceecb64908b"
-					(reference "#PWR?")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -7128,7 +7210,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c6c5ae4-4173-43c8-834f-fa05ae111672")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR025"
 			(at 49.53 109.22 0)
 			(effects
 				(font
@@ -7178,7 +7260,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/602799df-dfd4-4aef-8cfd-8ceecb64908b"
-					(reference "#PWR?")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -7199,7 +7281,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6a541a76-d737-4076-8f3b-dce88a077cf3")
-		(property "Reference" "Y?"
+		(property "Reference" "Y3"
 			(at 84.328 140.716 0)
 			(effects
 				(font
@@ -7216,7 +7298,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
 			(at 86.36 146.05 0)
 			(effects
 				(font
@@ -7278,7 +7360,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/602799df-dfd4-4aef-8cfd-8ceecb64908b"
-					(reference "Y?")
+					(reference "Y3")
 					(unit 1)
 				)
 			)
@@ -7299,7 +7381,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6b6b0a55-1ff1-4595-9de6-41ad0aa87609")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR041"
 			(at 252.73 128.27 0)
 			(effects
 				(font
@@ -7349,7 +7431,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/602799df-dfd4-4aef-8cfd-8ceecb64908b"
-					(reference "#PWR?")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -7370,7 +7452,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6f1f36b7-28d5-4975-acc3-2cea9ea2f273")
-		(property "Reference" "TP?"
+		(property "Reference" "TP2"
 			(at 127 27.94 0)
 			(effects
 				(font
@@ -7422,7 +7504,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/602799df-dfd4-4aef-8cfd-8ceecb64908b"
-					(reference "TP?")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -7443,7 +7525,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "70b83f15-cc55-4c39-93ca-d2be58f4b063")
-		(property "Reference" "C?"
+		(property "Reference" "C36"
 			(at 72.898 150.114 0)
 			(effects
 				(font
@@ -7497,7 +7579,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/602799df-dfd4-4aef-8cfd-8ceecb64908b"
-					(reference "C?")
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -7518,7 +7600,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "72ea2693-32f7-4c24-ac29-d3d9d70656ec")
-		(property "Reference" "R?"
+		(property "Reference" "R14"
 			(at 51.816 115.824 0)
 			(effects
 				(font
@@ -7572,7 +7654,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/602799df-dfd4-4aef-8cfd-8ceecb64908b"
-					(reference "R?")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -7593,7 +7675,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "84026979-8b94-4b93-9fa4-2ca2e67e0c42")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR036"
 			(at 154.94 157.48 0)
 			(effects
 				(font
@@ -7643,7 +7725,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/602799df-dfd4-4aef-8cfd-8ceecb64908b"
-					(reference "#PWR?")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -7665,7 +7747,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "858dd02e-ea73-425b-ad19-8b55c89d0afa")
-		(property "Reference" "J?"
+		(property "Reference" "J2"
 			(at 227.33 101.6 0)
 			(effects
 				(font
@@ -7750,7 +7832,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/602799df-dfd4-4aef-8cfd-8ceecb64908b"
-					(reference "J?")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -7772,7 +7854,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85bb7d0e-7cd2-4af2-9032-61ab2e61a832")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR035"
 			(at 153.67 35.56 0)
 			(effects
 				(font
@@ -7822,7 +7904,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/602799df-dfd4-4aef-8cfd-8ceecb64908b"
-					(reference "#PWR?")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -7844,7 +7926,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8871b56e-8116-4291-be8b-9acfda1f0176")
-		(property "Reference" "FB?"
+		(property "Reference" "FB2"
 			(at 118.0592 25.4 90)
 			(effects
 				(font
@@ -7896,7 +7978,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/602799df-dfd4-4aef-8cfd-8ceecb64908b"
-					(reference "FB?")
+					(reference "FB2")
 					(unit 1)
 				)
 			)
@@ -7918,7 +8000,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "89e55798-98eb-4fda-b54f-6ec5e0b2843b")
-		(property "Reference" "C?"
+		(property "Reference" "C44"
 			(at 138.43 73.6599 0)
 			(effects
 				(font
@@ -7972,7 +8054,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/602799df-dfd4-4aef-8cfd-8ceecb64908b"
-					(reference "C?")
+					(reference "C44")
 					(unit 1)
 				)
 			)
@@ -7993,7 +8075,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8c697468-fd3e-4d5d-8c55-e044344a43e7")
-		(property "Reference" "R?"
+		(property "Reference" "R22"
 			(at 160.02 100.3299 0)
 			(effects
 				(font
@@ -8047,7 +8129,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/602799df-dfd4-4aef-8cfd-8ceecb64908b"
-					(reference "R?")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -8069,7 +8151,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ec586d3-50cd-4fa0-b812-aff1d2ac9c4e")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR029"
 			(at 102.87 86.36 0)
 			(effects
 				(font
@@ -8119,7 +8201,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/602799df-dfd4-4aef-8cfd-8ceecb64908b"
-					(reference "#PWR?")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -8141,7 +8223,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "920d7390-ccb1-4417-84f6-e4816a6073fb")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR030"
 			(at 127 73.66 0)
 			(effects
 				(font
@@ -8191,7 +8273,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/602799df-dfd4-4aef-8cfd-8ceecb64908b"
-					(reference "#PWR?")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -8212,7 +8294,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9696a209-e151-494a-8de3-d041fb9ccea5")
-		(property "Reference" "R?"
+		(property "Reference" "R26"
 			(at 265.938 109.22 90)
 			(effects
 				(font
@@ -8264,7 +8346,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/602799df-dfd4-4aef-8cfd-8ceecb64908b"
-					(reference "R?")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -8285,7 +8367,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "98409b01-8976-4bb1-b282-9af911a6a146")
-		(property "Reference" "C?"
+		(property "Reference" "C34"
 			(at 71.12 77.4699 0)
 			(effects
 				(font
@@ -8339,7 +8421,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/602799df-dfd4-4aef-8cfd-8ceecb64908b"
-					(reference "C?")
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -8361,7 +8443,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a333c3ad-8581-4c58-a6f9-2880247e7fb6")
-		(property "Reference" "U?"
+		(property "Reference" "U5"
 			(at 129.1433 148.59 0)
 			(effects
 				(font
@@ -8485,7 +8567,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/602799df-dfd4-4aef-8cfd-8ceecb64908b"
-					(reference "U?")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -8507,7 +8589,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5639b2e-d7ed-4f2b-acb3-8521866fc171")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR024"
 			(at 40.64 127 0)
 			(effects
 				(font
@@ -8557,7 +8639,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/602799df-dfd4-4aef-8cfd-8ceecb64908b"
-					(reference "#PWR?")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -8578,7 +8660,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a5bd5b5a-6aac-4d97-8684-e11a5fe7eb81")
-		(property "Reference" "C?"
+		(property "Reference" "C38"
 			(at 99.06 40.6399 0)
 			(effects
 				(font
@@ -8632,7 +8714,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/602799df-dfd4-4aef-8cfd-8ceecb64908b"
-					(reference "C?")
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -8654,7 +8736,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a907a089-80cc-4b30-b45d-4bd8089482ad")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR037"
 			(at 157.48 99.06 0)
 			(effects
 				(font
@@ -8704,7 +8786,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/602799df-dfd4-4aef-8cfd-8ceecb64908b"
-					(reference "#PWR?")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -8725,7 +8807,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a952d050-f19c-45c7-bc9b-4e3f35230828")
-		(property "Reference" "R?"
+		(property "Reference" "R24"
 			(at 175.26 100.3299 0)
 			(effects
 				(font
@@ -8779,7 +8861,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/602799df-dfd4-4aef-8cfd-8ceecb64908b"
-					(reference "R?")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -8801,7 +8883,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa8d2b01-2026-476b-b07d-5a9c2f36b845")
-		(property "Reference" "C?"
+		(property "Reference" "C46"
 			(at 154.94 73.6599 0)
 			(effects
 				(font
@@ -8855,7 +8937,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/602799df-dfd4-4aef-8cfd-8ceecb64908b"
-					(reference "C?")
+					(reference "C46")
 					(unit 1)
 				)
 			)
@@ -8877,7 +8959,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab06f335-5f46-49f5-8122-27a109f06e46")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR033"
 			(at 146.05 73.66 0)
 			(effects
 				(font
@@ -8927,7 +9009,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/602799df-dfd4-4aef-8cfd-8ceecb64908b"
-					(reference "#PWR?")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -8948,7 +9030,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bc6faf18-ecbd-48f3-aef6-a71fa58888dc")
-		(property "Reference" "R?"
+		(property "Reference" "R18"
 			(at 93.726 111.76 90)
 			(effects
 				(font
@@ -9000,7 +9082,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/602799df-dfd4-4aef-8cfd-8ceecb64908b"
-					(reference "R?")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -9021,7 +9103,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c5f1cf8c-2f33-44ea-8e9e-c070aa0ef076")
-		(property "Reference" "R?"
+		(property "Reference" "R27"
 			(at 265.938 119.38 90)
 			(effects
 				(font
@@ -9073,7 +9155,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/602799df-dfd4-4aef-8cfd-8ceecb64908b"
-					(reference "R?")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -9095,7 +9177,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d45d388a-5f74-4049-a44e-8274207d24e0")
-		(property "Reference" "C?"
+		(property "Reference" "C40"
 			(at 106.68 73.6599 0)
 			(effects
 				(font
@@ -9149,7 +9231,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/602799df-dfd4-4aef-8cfd-8ceecb64908b"
-					(reference "C?")
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -9171,7 +9253,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d73b8085-cb21-49bb-9e5a-3083a8d9881e")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR027"
 			(at 82.55 36.83 0)
 			(effects
 				(font
@@ -9221,7 +9303,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/602799df-dfd4-4aef-8cfd-8ceecb64908b"
-					(reference "#PWR?")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -9242,7 +9324,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dbfc4973-2749-4aa2-8015-040118e5d780")
-		(property "Reference" "R?"
+		(property "Reference" "R13"
 			(at 45.466 131.064 90)
 			(effects
 				(font
@@ -9296,7 +9378,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/602799df-dfd4-4aef-8cfd-8ceecb64908b"
-					(reference "R?")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -9318,7 +9400,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc5b4aba-7e09-4b91-8143-f3eafd3fe4a4")
-		(property "Reference" "C?"
+		(property "Reference" "C43"
 			(at 132.08 40.6399 0)
 			(effects
 				(font
@@ -9372,7 +9454,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/602799df-dfd4-4aef-8cfd-8ceecb64908b"
-					(reference "C?")
+					(reference "C43")
 					(unit 1)
 				)
 			)
@@ -9393,7 +9475,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e6b9ab9d-32cd-4ed0-9a67-68b0b528b003")
-		(property "Reference" "R?"
+		(property "Reference" "R20"
 			(at 93.218 119.38 90)
 			(effects
 				(font
@@ -9445,7 +9527,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/602799df-dfd4-4aef-8cfd-8ceecb64908b"
-					(reference "R?")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -9467,7 +9549,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e77661a4-6d77-4b42-ae33-302c5e146cce")
-		(property "Reference" "C?"
+		(property "Reference" "C35"
 			(at 82.55 77.4699 0)
 			(effects
 				(font
@@ -9521,7 +9603,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/602799df-dfd4-4aef-8cfd-8ceecb64908b"
-					(reference "C?")
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -9543,7 +9625,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e8771e7c-e930-43bf-8ecf-9ed90e7a0727")
-		(property "Reference" "C?"
+		(property "Reference" "C47"
 			(at 157.48 40.6399 0)
 			(effects
 				(font
@@ -9597,7 +9679,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/602799df-dfd4-4aef-8cfd-8ceecb64908b"
-					(reference "C?")
+					(reference "C47")
 					(unit 1)
 				)
 			)
@@ -9619,7 +9701,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "edbd7e87-39d4-4e74-b7d8-c24e20cfa886")
-		(property "Reference" "C?"
+		(property "Reference" "C37"
 			(at 86.36 40.6399 0)
 			(effects
 				(font
@@ -9673,7 +9755,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/602799df-dfd4-4aef-8cfd-8ceecb64908b"
-					(reference "C?")
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -9694,7 +9776,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ee59c571-25bc-4302-aa70-74790d1201de")
-		(property "Reference" "TP?"
+		(property "Reference" "TP1"
 			(at 106.426 27.94 0)
 			(effects
 				(font
@@ -9746,7 +9828,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/602799df-dfd4-4aef-8cfd-8ceecb64908b"
-					(reference "TP?")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -9768,7 +9850,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eec17ee3-edc3-4cc8-bc69-61786b6effc4")
-		(property "Reference" "C?"
+		(property "Reference" "C42"
 			(at 116.84 73.6599 0)
 			(effects
 				(font
@@ -9822,7 +9904,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/602799df-dfd4-4aef-8cfd-8ceecb64908b"
-					(reference "C?")
+					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -9843,7 +9925,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ef2401ff-4337-4b6c-a287-342e43ebc6fb")
-		(property "Reference" "R?"
+		(property "Reference" "R25"
 			(at 182.88 100.3299 0)
 			(effects
 				(font
@@ -9897,7 +9979,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/602799df-dfd4-4aef-8cfd-8ceecb64908b"
-					(reference "R?")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -9918,7 +10000,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f5e189ef-84a4-428f-83d5-ce1775c76439")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR040"
 			(at 252.73 118.11 0)
 			(effects
 				(font
@@ -9968,7 +10050,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/602799df-dfd4-4aef-8cfd-8ceecb64908b"
-					(reference "#PWR?")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)

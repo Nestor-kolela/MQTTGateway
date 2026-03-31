@@ -3290,7 +3290,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "01bc91e6-01cd-4ffe-bcf4-641acae069d0")
-		(property "Reference" "D?"
+		(property "Reference" "D34"
 			(at 70.104 41.91 90)
 			(effects
 				(font
@@ -3362,7 +3362,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/59f7c7c9-cb86-4d70-a8ce-a4685283e69b"
-					(reference "D?")
+					(reference "D34")
 					(unit 1)
 				)
 			)
@@ -3384,7 +3384,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03fc8ee8-f073-4877-9abf-3c782e07c796")
-		(property "Reference" "K?"
+		(property "Reference" "K4"
 			(at 201.93 96.5199 0)
 			(effects
 				(font
@@ -3457,7 +3457,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/59f7c7c9-cb86-4d70-a8ce-a4685283e69b"
-					(reference "K?")
+					(reference "K4")
 					(unit 1)
 				)
 			)
@@ -3478,7 +3478,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "17b417d1-d8d7-47ca-96c5-5839743dca27")
-		(property "Reference" "Q?"
+		(property "Reference" "Q6"
 			(at 84.582 57.404 0)
 			(effects
 				(font
@@ -3538,7 +3538,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/59f7c7c9-cb86-4d70-a8ce-a4685283e69b"
-					(reference "Q?")
+					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -3560,7 +3560,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a66790a-0f4b-458b-ace6-9c15dc883aa1")
-		(property "Reference" "J?"
+		(property "Reference" "J16"
 			(at 147.32 41.9099 0)
 			(effects
 				(font
@@ -3579,7 +3579,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal"
 			(at 144.78 43.18 0)
 			(effects
 				(font
@@ -3618,7 +3618,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/59f7c7c9-cb86-4d70-a8ce-a4685283e69b"
-					(reference "J?")
+					(reference "J16")
 					(unit 1)
 				)
 			)
@@ -3639,7 +3639,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1a86c273-2801-4916-845a-e361b56859d7")
-		(property "Reference" "D?"
+		(property "Reference" "D36"
 			(at 162.814 41.91 90)
 			(effects
 				(font
@@ -3711,7 +3711,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/59f7c7c9-cb86-4d70-a8ce-a4685283e69b"
-					(reference "D?")
+					(reference "D36")
 					(unit 1)
 				)
 			)
@@ -3732,7 +3732,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1ac84bf0-9a5e-48c4-b234-ed04f0c01757")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR081"
 			(at 161.29 36.83 0)
 			(effects
 				(font
@@ -3782,7 +3782,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/59f7c7c9-cb86-4d70-a8ce-a4685283e69b"
-					(reference "#PWR?")
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -3804,7 +3804,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "249c2678-558d-44af-94bd-ad6313cc00a7")
-		(property "Reference" "J?"
+		(property "Reference" "J14"
 			(at 127 41.9099 0)
 			(effects
 				(font
@@ -3823,7 +3823,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal"
 			(at 124.46 43.18 0)
 			(effects
 				(font
@@ -3862,7 +3862,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/59f7c7c9-cb86-4d70-a8ce-a4685283e69b"
-					(reference "J?")
+					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -3883,7 +3883,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "296ec888-1984-45c5-8057-36b32b0b0271")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR077"
 			(at 68.58 36.83 0)
 			(effects
 				(font
@@ -3933,7 +3933,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/59f7c7c9-cb86-4d70-a8ce-a4685283e69b"
-					(reference "#PWR?")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -3955,7 +3955,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3194a67d-0c94-487c-bc83-80d92e5844e7")
-		(property "Reference" "R?"
+		(property "Reference" "R69"
 			(at 71.12 62.2299 0)
 			(effects
 				(font
@@ -3973,7 +3973,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0612_1632Metric_Pad1.18x3.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 66.802 63.5 90)
 			(effects
 				(font
@@ -4009,7 +4009,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/59f7c7c9-cb86-4d70-a8ce-a4685283e69b"
-					(reference "R?")
+					(reference "R69")
 					(unit 1)
 				)
 			)
@@ -4031,7 +4031,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "321446eb-e4c1-46ae-b2de-48b7d029bbe5")
-		(property "Reference" "J?"
+		(property "Reference" "J15"
 			(at 127 96.5199 0)
 			(effects
 				(font
@@ -4050,7 +4050,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal"
 			(at 124.46 97.79 0)
 			(effects
 				(font
@@ -4089,7 +4089,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/59f7c7c9-cb86-4d70-a8ce-a4685283e69b"
-					(reference "J?")
+					(reference "J15")
 					(unit 1)
 				)
 			)
@@ -4111,7 +4111,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "327b2241-025a-491f-859b-ef5691273ca5")
-		(property "Reference" "J?"
+		(property "Reference" "J18"
 			(at 219.71 41.9099 0)
 			(effects
 				(font
@@ -4130,7 +4130,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal"
 			(at 217.17 43.18 0)
 			(effects
 				(font
@@ -4169,7 +4169,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/59f7c7c9-cb86-4d70-a8ce-a4685283e69b"
-					(reference "J?")
+					(reference "J18")
 					(unit 1)
 				)
 			)
@@ -4191,7 +4191,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3afdcdf3-018a-4522-ad3e-344717d0cade")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR080"
 			(at 82.55 130.81 0)
 			(effects
 				(font
@@ -4241,7 +4241,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/59f7c7c9-cb86-4d70-a8ce-a4685283e69b"
-					(reference "#PWR?")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -4263,7 +4263,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41d753d1-8685-4783-9685-0b559e7ed0d5")
-		(property "Reference" "J?"
+		(property "Reference" "J20"
 			(at 240.03 41.9099 0)
 			(effects
 				(font
@@ -4282,7 +4282,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal"
 			(at 237.49 43.18 0)
 			(effects
 				(font
@@ -4321,7 +4321,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/59f7c7c9-cb86-4d70-a8ce-a4685283e69b"
-					(reference "J?")
+					(reference "J20")
 					(unit 1)
 				)
 			)
@@ -4343,7 +4343,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5755c329-bded-4824-8305-3800e2d0eebc")
-		(property "Reference" "K?"
+		(property "Reference" "K2"
 			(at 109.22 96.5199 0)
 			(effects
 				(font
@@ -4416,7 +4416,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/59f7c7c9-cb86-4d70-a8ce-a4685283e69b"
-					(reference "K?")
+					(reference "K2")
 					(unit 1)
 				)
 			)
@@ -4438,7 +4438,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b8ac2b3-ad05-4b02-b9e1-85966e57c71e")
-		(property "Reference" "K?"
+		(property "Reference" "K3"
 			(at 201.93 41.9099 0)
 			(effects
 				(font
@@ -4511,7 +4511,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/59f7c7c9-cb86-4d70-a8ce-a4685283e69b"
-					(reference "K?")
+					(reference "K3")
 					(unit 1)
 				)
 			)
@@ -4533,7 +4533,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62c324f7-2acd-486b-a946-a97c0eafee96")
-		(property "Reference" "K?"
+		(property "Reference" "K1"
 			(at 109.22 41.9099 0)
 			(effects
 				(font
@@ -4606,7 +4606,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/59f7c7c9-cb86-4d70-a8ce-a4685283e69b"
-					(reference "K?")
+					(reference "K1")
 					(unit 1)
 				)
 			)
@@ -4628,7 +4628,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72c74941-94db-4780-85c5-2a3018578246")
-		(property "Reference" "R?"
+		(property "Reference" "R71"
 			(at 163.83 62.2299 0)
 			(effects
 				(font
@@ -4646,7 +4646,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0612_1632Metric_Pad1.18x3.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 159.512 63.5 90)
 			(effects
 				(font
@@ -4682,7 +4682,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/59f7c7c9-cb86-4d70-a8ce-a4685283e69b"
-					(reference "R?")
+					(reference "R71")
 					(unit 1)
 				)
 			)
@@ -4704,7 +4704,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76c83592-3179-4db4-a1e1-9398f649ee9c")
-		(property "Reference" "J?"
+		(property "Reference" "J17"
 			(at 147.32 96.5199 0)
 			(effects
 				(font
@@ -4723,7 +4723,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal"
 			(at 144.78 97.79 0)
 			(effects
 				(font
@@ -4762,7 +4762,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/59f7c7c9-cb86-4d70-a8ce-a4685283e69b"
-					(reference "J?")
+					(reference "J17")
 					(unit 1)
 				)
 			)
@@ -4783,7 +4783,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "783b3b45-38e4-4635-be93-a2cbe8b982e9")
-		(property "Reference" "Q?"
+		(property "Reference" "Q9"
 			(at 177.292 112.014 0)
 			(effects
 				(font
@@ -4843,7 +4843,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/59f7c7c9-cb86-4d70-a8ce-a4685283e69b"
-					(reference "Q?")
+					(reference "Q9")
 					(unit 1)
 				)
 			)
@@ -4865,7 +4865,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b21497a-a948-413a-b988-5baac23e9785")
-		(property "Reference" "J?"
+		(property "Reference" "J21"
 			(at 240.03 96.5199 0)
 			(effects
 				(font
@@ -4884,7 +4884,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal"
 			(at 237.49 97.79 0)
 			(effects
 				(font
@@ -4923,7 +4923,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/59f7c7c9-cb86-4d70-a8ce-a4685283e69b"
-					(reference "J?")
+					(reference "J21")
 					(unit 1)
 				)
 			)
@@ -4944,7 +4944,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a56587fe-208f-42f4-9c5a-5b7baf72e919")
-		(property "Reference" "Q?"
+		(property "Reference" "Q7"
 			(at 84.582 112.014 0)
 			(effects
 				(font
@@ -5004,7 +5004,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/59f7c7c9-cb86-4d70-a8ce-a4685283e69b"
-					(reference "Q?")
+					(reference "Q7")
 					(unit 1)
 				)
 			)
@@ -5025,7 +5025,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b3c4d0a0-fbf3-4c64-859d-c08a0acf75ce")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR078"
 			(at 68.58 91.44 0)
 			(effects
 				(font
@@ -5075,7 +5075,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/59f7c7c9-cb86-4d70-a8ce-a4685283e69b"
-					(reference "#PWR?")
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -5096,7 +5096,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bbc84397-81d0-401d-a207-9e3f773aa13f")
-		(property "Reference" "D?"
+		(property "Reference" "D35"
 			(at 70.104 96.52 90)
 			(effects
 				(font
@@ -5168,7 +5168,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/59f7c7c9-cb86-4d70-a8ce-a4685283e69b"
-					(reference "D?")
+					(reference "D35")
 					(unit 1)
 				)
 			)
@@ -5190,7 +5190,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bde39f55-1ae7-4930-952e-89b728bab3a6")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR084"
 			(at 175.26 130.81 0)
 			(effects
 				(font
@@ -5240,7 +5240,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/59f7c7c9-cb86-4d70-a8ce-a4685283e69b"
-					(reference "#PWR?")
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -5262,7 +5262,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c5f80201-8b2a-4042-820c-336c39e850f7")
-		(property "Reference" "R?"
+		(property "Reference" "R70"
 			(at 71.12 116.8399 0)
 			(effects
 				(font
@@ -5280,7 +5280,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0612_1632Metric_Pad1.18x3.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 66.802 118.11 90)
 			(effects
 				(font
@@ -5316,7 +5316,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/59f7c7c9-cb86-4d70-a8ce-a4685283e69b"
-					(reference "R?")
+					(reference "R70")
 					(unit 1)
 				)
 			)
@@ -5337,7 +5337,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d1d3f5eb-3d46-4712-a384-998d1426a5a8")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR082"
 			(at 161.29 91.44 0)
 			(effects
 				(font
@@ -5387,7 +5387,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/59f7c7c9-cb86-4d70-a8ce-a4685283e69b"
-					(reference "#PWR?")
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -5409,7 +5409,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7e8e3ed-f0a3-407b-b353-2b0e14b39784")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR083"
 			(at 175.26 76.2 0)
 			(effects
 				(font
@@ -5459,7 +5459,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/59f7c7c9-cb86-4d70-a8ce-a4685283e69b"
-					(reference "#PWR?")
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -5481,7 +5481,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4a1bdba-4f45-4799-ab85-02694df4f1e2")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR079"
 			(at 82.55 76.2 0)
 			(effects
 				(font
@@ -5531,7 +5531,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/59f7c7c9-cb86-4d70-a8ce-a4685283e69b"
-					(reference "#PWR?")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -5553,7 +5553,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec56e889-3661-46aa-b9a1-a08367d91fd5")
-		(property "Reference" "J?"
+		(property "Reference" "J19"
 			(at 219.71 96.5199 0)
 			(effects
 				(font
@@ -5572,7 +5572,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal"
 			(at 217.17 97.79 0)
 			(effects
 				(font
@@ -5611,7 +5611,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/59f7c7c9-cb86-4d70-a8ce-a4685283e69b"
-					(reference "J?")
+					(reference "J19")
 					(unit 1)
 				)
 			)
@@ -5632,7 +5632,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f3614b02-3ca0-461a-8d1f-53b0a17b9c59")
-		(property "Reference" "D?"
+		(property "Reference" "D37"
 			(at 162.814 96.52 90)
 			(effects
 				(font
@@ -5704,7 +5704,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/59f7c7c9-cb86-4d70-a8ce-a4685283e69b"
-					(reference "D?")
+					(reference "D37")
 					(unit 1)
 				)
 			)
@@ -5726,7 +5726,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f74dacae-d93e-4d52-a488-d9e9759b7d4a")
-		(property "Reference" "R?"
+		(property "Reference" "R72"
 			(at 163.83 116.8399 0)
 			(effects
 				(font
@@ -5744,7 +5744,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0612_1632Metric_Pad1.18x3.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 159.512 118.11 90)
 			(effects
 				(font
@@ -5780,7 +5780,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/59f7c7c9-cb86-4d70-a8ce-a4685283e69b"
-					(reference "R?")
+					(reference "R72")
 					(unit 1)
 				)
 			)
@@ -5801,7 +5801,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "feb90c8d-8003-4612-a481-3608e7edb30c")
-		(property "Reference" "Q?"
+		(property "Reference" "Q8"
 			(at 177.292 57.404 0)
 			(effects
 				(font
@@ -5861,7 +5861,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/59f7c7c9-cb86-4d70-a8ce-a4685283e69b"
-					(reference "Q?")
+					(reference "Q8")
 					(unit 1)
 				)
 			)

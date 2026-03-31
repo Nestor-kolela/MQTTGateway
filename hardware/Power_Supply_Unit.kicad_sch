@@ -1966,12 +1966,6 @@
 		(uuid "cc970978-3793-43d7-b1c1-7639128f50f5")
 	)
 	(junction
-		(at 128.27 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d79a2b9e-a5bc-47f3-a4b4-3e66890578a7")
-	)
-	(junction
 		(at 134.62 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1988,6 +1982,16 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fcd73a10-7704-4951-82b9-37a6dcb176f0")
+	)
+	(wire
+		(pts
+			(xy 121.92 48.26) (xy 121.92 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "006d8534-e057-46be-9660-503bfe677496")
 	)
 	(wire
 		(pts
@@ -2241,7 +2245,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 69.85) (xy 128.27 69.85)
+			(xy 121.92 69.85) (xy 134.62 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2308,16 +2312,6 @@
 			(type default)
 		)
 		(uuid "5ddaf02c-90f5-47a0-be9c-fcafa1c44e3f")
-	)
-	(wire
-		(pts
-			(xy 128.27 69.85) (xy 121.92 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "603c9a96-7d0f-46b1-a6d4-c0862f652f63")
 	)
 	(wire
 		(pts
@@ -2721,6 +2715,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 100.33) (xy 109.22 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb2a98ce-4576-4295-9b26-5973bc040212")
+	)
+	(wire
+		(pts
 			(xy 85.09 49.53) (xy 93.98 49.53)
 		)
 		(stroke
@@ -2789,7 +2793,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00c68f84-d986-4121-80b2-6fb625105048")
-		(property "Reference" "#FLG?"
+		(property "Reference" "#FLG03"
 			(at 128.27 120.015 0)
 			(effects
 				(font
@@ -2839,7 +2843,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/84d35f5b-668b-4f6a-9ae9-c3f54bb13c83"
-					(reference "#FLG?")
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -2861,7 +2865,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f478945-1254-455c-b2fc-c9aa5cbf6d93")
-		(property "Reference" "C?"
+		(property "Reference" "C1"
 			(at 113.03 57.5309 0)
 			(effects
 				(font
@@ -2915,85 +2919,13 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/84d35f5b-668b-4f6a-9ae9-c3f54bb13c83"
-					(reference "C?")
+					(reference "C1")
 					(unit 1)
 				)
 			)
 			(project "Power_Supply_Unit"
 				(path "/478be161-26c6-450d-8101-6fd34e57b292"
 					(reference "C?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 128.27 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "23231a03-c5a1-4aba-9c8f-06d4e2b824f9")
-		(property "Reference" "#FLG?"
-			(at 128.27 67.945 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 128.27 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 128.27 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 128.27 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 128.27 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5f196917-92e4-4a9c-a2a1-1af69daf897a")
-		)
-		(instances
-			(project "MQTTGateway"
-				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/84d35f5b-668b-4f6a-9ae9-c3f54bb13c83"
-					(reference "#FLG?")
-					(unit 1)
-				)
-			)
-			(project "Power_Supply_Unit"
-				(path "/478be161-26c6-450d-8101-6fd34e57b292"
-					(reference "#FLG?")
 					(unit 1)
 				)
 			)
@@ -3009,7 +2941,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ac7a8ac-0d3b-481b-a9e9-004ec850cae0")
-		(property "Reference" "D?"
+		(property "Reference" "D4"
 			(at 205.74 56.1974 90)
 			(effects
 				(font
@@ -3072,7 +3004,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/84d35f5b-668b-4f6a-9ae9-c3f54bb13c83"
-					(reference "D?")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -3094,7 +3026,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3222fbee-29b1-4072-8fa0-212b8e3ba7a8")
-		(property "Reference" "C?"
+		(property "Reference" "C10"
 			(at 180.34 109.6009 0)
 			(effects
 				(font
@@ -3148,7 +3080,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/84d35f5b-668b-4f6a-9ae9-c3f54bb13c83"
-					(reference "C?")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -3170,7 +3102,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3442170a-5bb8-451e-a824-c2bf2b1b4e1b")
-		(property "Reference" "C?"
+		(property "Reference" "C11"
 			(at 193.04 58.4199 0)
 			(effects
 				(font
@@ -3224,7 +3156,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/84d35f5b-668b-4f6a-9ae9-c3f54bb13c83"
-					(reference "C?")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -3238,7 +3170,7 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 121.92 49.53 0)
+		(at 121.92 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3246,8 +3178,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "350ebdcc-3fbb-43d2-9b95-529c55d41473")
-		(property "Reference" "#PWR?"
-			(at 121.92 53.34 0)
+		(property "Reference" "#PWR03"
+			(at 121.92 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3256,7 +3188,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 121.92 44.45 0)
+			(at 121.92 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3264,7 +3196,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 121.92 49.53 0)
+			(at 121.92 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3273,7 +3205,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 49.53 0)
+			(at 121.92 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3282,7 +3214,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 121.92 49.53 0)
+			(at 121.92 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3296,7 +3228,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/84d35f5b-668b-4f6a-9ae9-c3f54bb13c83"
-					(reference "#PWR?")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -3317,7 +3249,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "374c7748-8d68-4cac-97dc-2325e8d6c296")
-		(property "Reference" "D?"
+		(property "Reference" "D1"
 			(at 97.79 43.688 0)
 			(effects
 				(font
@@ -3387,7 +3319,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/84d35f5b-668b-4f6a-9ae9-c3f54bb13c83"
-					(reference "D?")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -3408,7 +3340,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4bd73b02-9f93-4473-b2a2-91dbeaaecce7")
-		(property "Reference" "#FLG?"
+		(property "Reference" "#FLG01"
 			(at 85.09 47.625 0)
 			(effects
 				(font
@@ -3459,7 +3391,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/84d35f5b-668b-4f6a-9ae9-c3f54bb13c83"
-					(reference "#FLG?")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -3481,7 +3413,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7474f4e2-025b-45a2-87b7-f2eeaa5a14c5")
-		(property "Reference" "D?"
+		(property "Reference" "D2"
 			(at 151.13 33.02 0)
 			(effects
 				(font
@@ -3551,7 +3483,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/84d35f5b-668b-4f6a-9ae9-c3f54bb13c83"
-					(reference "D?")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -3573,7 +3505,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b2ed28e-1b7e-4bdd-a080-62bf4aecf176")
-		(property "Reference" "C?"
+		(property "Reference" "C4"
 			(at 125.73 109.6009 0)
 			(effects
 				(font
@@ -3627,7 +3559,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/84d35f5b-668b-4f6a-9ae9-c3f54bb13c83"
-					(reference "C?")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -3648,7 +3580,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7e8f4961-bdca-4ece-af18-2bee3a685120")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR04"
 			(at 149.86 77.47 0)
 			(effects
 				(font
@@ -3698,7 +3630,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/84d35f5b-668b-4f6a-9ae9-c3f54bb13c83"
-					(reference "#PWR?")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -3720,7 +3652,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80d7575c-9463-4667-9ab8-0d043e8279f1")
-		(property "Reference" "C?"
+		(property "Reference" "C8"
 			(at 167.64 109.6009 0)
 			(effects
 				(font
@@ -3774,7 +3706,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/84d35f5b-668b-4f6a-9ae9-c3f54bb13c83"
-					(reference "C?")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -3796,7 +3728,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "862836c2-cd87-4a01-a9cd-7b894f2104d1")
-		(property "Reference" "R?"
+		(property "Reference" "R1"
 			(at 204.47 63.4999 0)
 			(effects
 				(font
@@ -3850,7 +3782,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/84d35f5b-668b-4f6a-9ae9-c3f54bb13c83"
-					(reference "R?")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -3872,7 +3804,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c63a7f0-8f53-499b-bfe4-fee433b36e6c")
-		(property "Reference" "C?"
+		(property "Reference" "C7"
 			(at 167.64 57.5309 0)
 			(effects
 				(font
@@ -3926,7 +3858,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/84d35f5b-668b-4f6a-9ae9-c3f54bb13c83"
-					(reference "C?")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -3948,7 +3880,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99c9eeab-97eb-4da9-b92b-883e44ab72b5")
-		(property "Reference" "U?"
+		(property "Reference" "U2"
 			(at 149.86 95.25 0)
 			(effects
 				(font
@@ -4003,7 +3935,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/84d35f5b-668b-4f6a-9ae9-c3f54bb13c83"
-					(reference "U?")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -4017,7 +3949,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 109.22 101.6 0)
+		(at 109.22 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4025,8 +3957,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d3c84a5-69cb-4ab7-8a4c-89dce0d3ffee")
-		(property "Reference" "#PWR?"
-			(at 109.22 105.41 0)
+		(property "Reference" "#PWR02"
+			(at 109.22 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4035,7 +3967,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 109.22 96.52 0)
+			(at 109.22 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4043,7 +3975,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 101.6 0)
+			(at 109.22 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4052,7 +3984,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 101.6 0)
+			(at 109.22 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4061,7 +3993,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 109.22 101.6 0)
+			(at 109.22 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4075,7 +4007,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/84d35f5b-668b-4f6a-9ae9-c3f54bb13c83"
-					(reference "#PWR?")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -4097,7 +4029,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e1d26e0-0e45-46c6-8322-c03d23da1006")
-		(property "Reference" "C?"
+		(property "Reference" "C2"
 			(at 113.03 109.6009 0)
 			(effects
 				(font
@@ -4151,7 +4083,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/84d35f5b-668b-4f6a-9ae9-c3f54bb13c83"
-					(reference "C?")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -4173,7 +4105,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a28a9ed1-8be9-459d-8a55-763af97dbbee")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR05"
 			(at 149.86 130.81 0)
 			(effects
 				(font
@@ -4223,7 +4155,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/84d35f5b-668b-4f6a-9ae9-c3f54bb13c83"
-					(reference "#PWR?")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -4245,7 +4177,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5e7c769-b57b-4aac-b5b8-ca6dbfe60d65")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR06"
 			(at 201.93 53.34 0)
 			(effects
 				(font
@@ -4295,7 +4227,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/84d35f5b-668b-4f6a-9ae9-c3f54bb13c83"
-					(reference "#PWR?")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -4317,7 +4249,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7596a26-96de-498a-9c01-e2dd28f593b5")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR07"
 			(at 201.93 105.41 0)
 			(effects
 				(font
@@ -4367,7 +4299,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/84d35f5b-668b-4f6a-9ae9-c3f54bb13c83"
-					(reference "#PWR?")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -4389,7 +4321,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "beb9604c-cb55-4048-9f37-28358ec696b8")
-		(property "Reference" "C?"
+		(property "Reference" "C12"
 			(at 193.04 110.4899 0)
 			(effects
 				(font
@@ -4443,85 +4375,13 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/84d35f5b-668b-4f6a-9ae9-c3f54bb13c83"
-					(reference "C?")
+					(reference "C12")
 					(unit 1)
 				)
 			)
 			(project "Power_Supply_Unit"
 				(path "/478be161-26c6-450d-8101-6fd34e57b292"
 					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 121.92 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c00b10b4-cc76-449c-a7da-09eae0bee9e4")
-		(property "Reference" "#FLG?"
-			(at 121.92 99.695 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 121.92 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 121.92 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 121.92 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 121.92 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fbacc774-33ed-4e05-ab31-de42fd922935")
-		)
-		(instances
-			(project "MQTTGateway"
-				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/84d35f5b-668b-4f6a-9ae9-c3f54bb13c83"
-					(reference "#FLG?")
-					(unit 1)
-				)
-			)
-			(project "Power_Supply_Unit"
-				(path "/478be161-26c6-450d-8101-6fd34e57b292"
-					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -4537,7 +4397,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c08343f2-37f2-48c3-b40f-87ceda7c131b")
-		(property "Reference" "C?"
+		(property "Reference" "C9"
 			(at 180.34 57.5309 0)
 			(effects
 				(font
@@ -4591,7 +4451,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/84d35f5b-668b-4f6a-9ae9-c3f54bb13c83"
-					(reference "C?")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -4613,7 +4473,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "caa20aee-2516-4347-b7e0-37c3151f993b")
-		(property "Reference" "C?"
+		(property "Reference" "C6"
 			(at 138.43 110.4899 0)
 			(effects
 				(font
@@ -4667,7 +4527,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/84d35f5b-668b-4f6a-9ae9-c3f54bb13c83"
-					(reference "C?")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -4689,7 +4549,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cdfe52d2-8195-49b0-a48a-9cf46f2deb21")
-		(property "Reference" "R?"
+		(property "Reference" "R2"
 			(at 204.47 115.5699 0)
 			(effects
 				(font
@@ -4743,13 +4603,79 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/84d35f5b-668b-4f6a-9ae9-c3f54bb13c83"
-					(reference "R?")
+					(reference "R2")
 					(unit 1)
 				)
 			)
 			(project "Power_Supply_Unit"
 				(path "/478be161-26c6-450d-8101-6fd34e57b292"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 109.22 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cec6570e-a7ba-4580-bbc7-d127e6c33893")
+		(property "Reference" "#FLG02"
+			(at 109.22 47.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 104.902 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 109.22 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63b6ba81-43d7-4200-9535-ba5acf3805cd")
+		)
+		(instances
+			(project "MQTTGateway"
+				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/84d35f5b-668b-4f6a-9ae9-c3f54bb13c83"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -4765,7 +4691,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "de722808-7ec9-47b8-a0cf-99202ac32234")
-		(property "Reference" "J?"
+		(property "Reference" "J1"
 			(at 74.93 57.1499 0)
 			(effects
 				(font
@@ -4820,7 +4746,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/84d35f5b-668b-4f6a-9ae9-c3f54bb13c83"
-					(reference "J?")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -4842,7 +4768,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e071c046-30bc-420e-a3e7-8f2cc77b16f2")
-		(property "Reference" "D?"
+		(property "Reference" "D5"
 			(at 205.74 108.2674 90)
 			(effects
 				(font
@@ -4905,7 +4831,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/84d35f5b-668b-4f6a-9ae9-c3f54bb13c83"
-					(reference "D?")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -4927,7 +4853,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f1455cc0-9f64-4f4b-a2e8-de93b131ea9a")
-		(property "Reference" "D?"
+		(property "Reference" "D3"
 			(at 151.13 85.09 0)
 			(effects
 				(font
@@ -4997,7 +4923,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/84d35f5b-668b-4f6a-9ae9-c3f54bb13c83"
-					(reference "D?")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -5019,7 +4945,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f1ab38af-afad-4e4b-81a7-fc316b69be3a")
-		(property "Reference" "C?"
+		(property "Reference" "C3"
 			(at 125.73 57.5309 0)
 			(effects
 				(font
@@ -5073,7 +4999,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/84d35f5b-668b-4f6a-9ae9-c3f54bb13c83"
-					(reference "C?")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -5095,7 +5021,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f6ca0903-4deb-49e2-935f-89952f1a88e2")
-		(property "Reference" "C?"
+		(property "Reference" "C5"
 			(at 138.43 58.4199 0)
 			(effects
 				(font
@@ -5149,7 +5075,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/84d35f5b-668b-4f6a-9ae9-c3f54bb13c83"
-					(reference "C?")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -5170,7 +5096,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fc962bac-4148-4b96-95a4-0a3b092e907a")
-		(property "Reference" "U?"
+		(property "Reference" "U1"
 			(at 149.86 42.418 0)
 			(effects
 				(font
@@ -5225,7 +5151,7 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/84d35f5b-668b-4f6a-9ae9-c3f54bb13c83"
-					(reference "U?")
+					(reference "U1")
 					(unit 1)
 				)
 			)
