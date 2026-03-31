@@ -5774,7 +5774,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 59.69) (xy 29.21 62.23)
+			(xy 29.21 60.96) (xy 29.21 62.23)
 		)
 		(stroke
 			(width 0)
@@ -6961,6 +6961,16 @@
 			(type default)
 		)
 		(uuid "e5f6ee02-ec1f-40f7-8a7c-f84d6d220f9e")
+	)
+	(wire
+		(pts
+			(xy 29.21 53.34) (xy 29.21 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e61955d1-4147-4941-abce-bac3ed9c0586")
 	)
 	(bus
 		(pts
@@ -8189,7 +8199,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 249.8852 29.21 0)
 			(effects
 				(font
@@ -8265,7 +8275,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 17.78 85.09 0)
 			(effects
 				(font
@@ -8494,7 +8504,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 192.7352 29.21 0)
 			(effects
 				(font
@@ -8569,7 +8579,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 204.1652 29.21 0)
 			(effects
 				(font
@@ -8788,7 +8798,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 76.962 54.61 90)
 			(effects
 				(font
@@ -8863,7 +8873,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 16.002 95.25 90)
 			(effects
 				(font
@@ -8939,7 +8949,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 28.9052 186.69 0)
 			(effects
 				(font
@@ -9160,7 +9170,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 44.1452 162.56 0)
 			(effects
 				(font
@@ -9281,6 +9291,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 43.18 85.09 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "46d045fb-cdc4-4f6a-ad79-6ac77fa2c648")
+		(property "Reference" "D?"
+			(at 44.704 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 46.99 87.9474 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 43.18 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 43.18 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 43.18 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6e3b6c9c-7970-46dd-a1fe-3e0e865e5b2a")
+		)
+		(pin "2"
+			(uuid "efe326a7-b2f2-4577-9e06-16e0f26fb5bf")
+		)
+		(instances
+			(project "MQTTGateway"
+				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/5edf581e-5480-44ea-8d71-19cdf5928232"
+					(reference "D?")
+					(unit 1)
+				)
+			)
+			(project "Microcontroller_Unit"
+				(path "/7ed63b94-d6cb-48bb-a5c9-1b6502ce39da"
+					(reference "D?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Crystal")
 		(at 35.56 177.8 180)
 		(unit 1)
@@ -9354,81 +9449,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 36.83 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5a097717-1c94-4c19-bf77-b20ec8a8cea1")
-		(property "Reference" "R4"
-			(at 38.1 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1K"
-			(at 38.1 96.266 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 35.052 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 36.83 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 36.83 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "23213308-a54a-4702-b29b-2b39f3e6b9a8")
-		)
-		(pin "1"
-			(uuid "32f41e83-d9c4-45dc-a51c-fe49c5759f8f")
-		)
-		(instances
-			(project "MQTTGateway"
-				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/5edf581e-5480-44ea-8d71-19cdf5928232"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-			(project "Microcontroller_Unit"
-				(path "/7ed63b94-d6cb-48bb-a5c9-1b6502ce39da"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 226.06 25.4 0)
 		(unit 1)
@@ -9455,7 +9475,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 227.0252 29.21 0)
 			(effects
 				(font
@@ -9498,6 +9518,81 @@
 			(project "Microcontroller_Unit"
 				(path "/7ed63b94-d6cb-48bb-a5c9-1b6502ce39da"
 					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 36.83 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "609c4fb6-c09f-4c9d-b876-d94fdec4321f")
+		(property "Reference" "R?"
+			(at 38.1 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1K"
+			(at 38.1 96.266 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 35.052 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 36.83 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 36.83 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d4890d0c-5c96-4f46-a183-28178cfd6570")
+		)
+		(pin "1"
+			(uuid "e4bac14c-7127-4af1-ba6d-e11a10e8794c")
+		)
+		(instances
+			(project "MQTTGateway"
+				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/5edf581e-5480-44ea-8d71-19cdf5928232"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+			(project "Microcontroller_Unit"
+				(path "/7ed63b94-d6cb-48bb-a5c9-1b6502ce39da"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -9792,7 +9887,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 29.21 55.88 0)
+		(at 29.21 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9800,7 +9895,7 @@
 		(dnp no)
 		(uuid "6ecccbd9-34c9-4b33-b5d9-b2461f0305fb")
 		(property "Reference" "C?"
-			(at 31.496 54.61 0)
+			(at 31.496 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9809,7 +9904,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 31.496 57.15 0)
+			(at 31.496 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9818,7 +9913,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 30.1752 59.69 0)
+			(at 30.1752 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9827,7 +9922,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 29.21 55.88 0)
+			(at 29.21 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9836,7 +9931,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 29.21 55.88 0)
+			(at 29.21 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9892,7 +9987,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 181.3052 29.21 0)
 			(effects
 				(font
@@ -9968,7 +10063,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 44.1452 186.69 0)
 			(effects
 				(font
@@ -10414,7 +10509,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 238.4552 29.21 0)
 			(effects
 				(font
@@ -10464,91 +10559,6 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 43.18 85.09 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7ba9630d-bcc4-488f-a686-3f345021bd2e")
-		(property "Reference" "D4"
-			(at 44.704 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 46.99 87.9474 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 43.18 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 43.18 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 43.18 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 43.18 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "341ec42f-65b3-4166-91e3-a7e9f795ecf5")
-		)
-		(pin "2"
-			(uuid "500a7c39-1c60-4d13-aa53-2289895e5427")
-		)
-		(instances
-			(project "MQTTGateway"
-				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/5edf581e-5480-44ea-8d71-19cdf5928232"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-			(project "Microcontroller_Unit"
-				(path "/7ed63b94-d6cb-48bb-a5c9-1b6502ce39da"
-					(reference "D?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
 		(at 24.13 85.09 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10575,7 +10585,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 24.13 85.09 0)
 			(effects
 				(font
@@ -10660,7 +10670,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 28.9052 162.56 0)
 			(effects
 				(font
@@ -10703,166 +10713,6 @@
 			(project "Microcontroller_Unit"
 				(path "/7ed63b94-d6cb-48bb-a5c9-1b6502ce39da"
 					(reference "C?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 36.83 85.09 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "830c6ab4-e81d-4ff1-a618-22c0573d003d")
-		(property "Reference" "D2"
-			(at 38.354 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 40.64 87.9474 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 36.83 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 36.83 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 36.83 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 36.83 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "928379d5-f7b4-4bd2-aa1d-9a522219ee3b")
-		)
-		(pin "2"
-			(uuid "8e807085-2351-4d1f-9b5f-eab11cf9e837")
-		)
-		(instances
-			(project "MQTTGateway"
-				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/5edf581e-5480-44ea-8d71-19cdf5928232"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-			(project "Microcontroller_Unit"
-				(path "/7ed63b94-d6cb-48bb-a5c9-1b6502ce39da"
-					(reference "D?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 24.13 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8797f446-6d2c-4a57-aac0-dc32bce532f9")
-		(property "Reference" "R1"
-			(at 25.4 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1K"
-			(at 25.4 96.266 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 22.352 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 24.13 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 24.13 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8ecd5f10-abfa-466a-b30b-3d12d3d5c23d")
-		)
-		(pin "1"
-			(uuid "25035f1e-e119-4b1f-a9b8-1c3ebe8c59d0")
-		)
-		(instances
-			(project "MQTTGateway"
-				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/5edf581e-5480-44ea-8d71-19cdf5928232"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-			(project "Microcontroller_Unit"
-				(path "/7ed63b94-d6cb-48bb-a5c9-1b6502ce39da"
-					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -11086,6 +10936,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 30.48 85.09 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a3e3ff7e-eb30-4048-86c7-66a889b20c26")
+		(property "Reference" "D?"
+			(at 32.004 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 34.29 87.9474 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 30.48 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30.48 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 30.48 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 30.48 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "48b661e5-a452-410f-a58d-5214a162cab8")
+		)
+		(pin "2"
+			(uuid "c34589dd-56d6-451d-a36c-0812339bc792")
+		)
+		(instances
+			(project "MQTTGateway"
+				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/5edf581e-5480-44ea-8d71-19cdf5928232"
+					(reference "D?")
+					(unit 1)
+				)
+			)
+			(project "Microcontroller_Unit"
+				(path "/7ed63b94-d6cb-48bb-a5c9-1b6502ce39da"
+					(reference "D?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 88.9 163.83 0)
 		(unit 1)
@@ -11112,7 +11047,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 89.8652 167.64 0)
 			(effects
 				(font
@@ -11161,6 +11096,81 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 24.13 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b19643e0-ff33-482c-9932-e69e266c3252")
+		(property "Reference" "R?"
+			(at 25.4 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1K"
+			(at 25.4 96.266 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 22.352 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 24.13 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 24.13 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d11e6f9a-4dc7-4f8b-bd51-4cea467d5429")
+		)
+		(pin "1"
+			(uuid "19365c11-040c-4bd0-8e71-470683d9591b")
+		)
+		(instances
+			(project "MQTTGateway"
+				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/5edf581e-5480-44ea-8d71-19cdf5928232"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+			(project "Microcontroller_Unit"
+				(path "/7ed63b94-d6cb-48bb-a5c9-1b6502ce39da"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 157.48 27.94 0)
 		(unit 1)
@@ -11187,7 +11197,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 158.4452 31.75 0)
 			(effects
 				(font
@@ -11308,15 +11318,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 30.48 95.25 0)
+		(at 43.18 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "b52ef8d8-be68-4311-b99f-e8549ab9b747")
-		(property "Reference" "R3"
-			(at 31.75 93.98 0)
+		(uuid "b5205d3e-8048-492e-b4d2-c8afbc1b2a12")
+		(property "Reference" "R?"
+			(at 44.45 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11325,7 +11335,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 31.75 96.266 0)
+			(at 44.45 96.266 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11333,8 +11343,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 28.702 95.25 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 41.402 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11343,7 +11353,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 30.48 95.25 0)
+			(at 43.18 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11352,7 +11362,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 30.48 95.25 0)
+			(at 43.18 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11361,15 +11371,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "40242593-f37d-4dc0-987c-6051e0ea92f7")
+			(uuid "7cdefdbb-cef8-4a24-838c-0ebbb06f3fad")
 		)
 		(pin "1"
-			(uuid "7f13cf61-8fc6-4975-a4ef-3f63d1838073")
+			(uuid "8cfeb3fb-452b-4bf2-be8b-4a542214bae7")
 		)
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/5edf581e-5480-44ea-8d71-19cdf5928232"
-					(reference "R3")
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -11551,7 +11561,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 100.0252 167.64 0)
 			(effects
 				(font
@@ -11702,7 +11712,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 228.9048 132.08 0)
 			(effects
 				(font
@@ -11777,7 +11787,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 262.5852 29.21 0)
 			(effects
 				(font
@@ -11820,81 +11830,6 @@
 			(project "Microcontroller_Unit"
 				(path "/7ed63b94-d6cb-48bb-a5c9-1b6502ce39da"
 					(reference "C?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 43.18 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c905b524-fff4-4d23-929f-5c2c6fe39756")
-		(property "Reference" "R5"
-			(at 44.45 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1K"
-			(at 44.45 96.266 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 41.402 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 43.18 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 43.18 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6eff7523-f981-42db-b9c3-4cd478a70eb6")
-		)
-		(pin "1"
-			(uuid "7088d22f-5074-4bd4-bb91-764e2975630e")
-		)
-		(instances
-			(project "MQTTGateway"
-				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/5edf581e-5480-44ea-8d71-19cdf5928232"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-			(project "Microcontroller_Unit"
-				(path "/7ed63b94-d6cb-48bb-a5c9-1b6502ce39da"
-					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -12020,7 +11955,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 192.532 157.48 90)
 			(effects
 				(font
@@ -12095,7 +12030,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 215.5952 29.21 0)
 			(effects
 				(font
@@ -12171,7 +12106,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 60.452 35.56 90)
 			(effects
 				(font
@@ -12328,7 +12263,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 145.7452 31.75 0)
 			(effects
 				(font
@@ -12404,7 +12339,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 70.612 35.56 90)
 			(effects
 				(font
@@ -12529,15 +12464,15 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 30.48 85.09 90)
+		(at 36.83 85.09 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f8f1edf0-56e5-4f74-8f3c-25c30a6082d4")
-		(property "Reference" "D1"
-			(at 32.004 85.09 90)
+		(uuid "f70beade-6459-4606-a933-a983c01918e2")
+		(property "Reference" "D?"
+			(at 38.354 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12546,7 +12481,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 34.29 87.9474 90)
+			(at 40.64 87.9474 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12555,8 +12490,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 30.48 85.09 0)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 36.83 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12565,7 +12500,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 30.48 85.09 0)
+			(at 36.83 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12574,7 +12509,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 30.48 85.09 0)
+			(at 36.83 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12583,7 +12518,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 30.48 85.09 0)
+			(at 36.83 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12592,21 +12527,96 @@
 			)
 		)
 		(pin "1"
-			(uuid "8a0f1488-056b-4f5a-be5a-292740015e43")
+			(uuid "1663122a-cfc9-4536-97eb-4ca5b18fc7de")
 		)
 		(pin "2"
-			(uuid "82edb906-2545-45da-b368-e68ef4bf3d4a")
+			(uuid "db2d9f5c-1c85-436a-a6f6-78c2714a72c9")
 		)
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/5edf581e-5480-44ea-8d71-19cdf5928232"
-					(reference "D1")
+					(reference "D?")
 					(unit 1)
 				)
 			)
 			(project "Microcontroller_Unit"
 				(path "/7ed63b94-d6cb-48bb-a5c9-1b6502ce39da"
 					(reference "D?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 30.48 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fe761522-4ea7-4a44-816d-30ec0c891878")
+		(property "Reference" "R?"
+			(at 31.75 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1K"
+			(at 31.75 96.266 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 28.702 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30.48 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 30.48 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a324a272-6f02-4a19-8e8a-b2af79263a0e")
+		)
+		(pin "1"
+			(uuid "06c6049d-0b8a-4067-b99a-ec0bf8ec289c")
+		)
+		(instances
+			(project "MQTTGateway"
+				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/5edf581e-5480-44ea-8d71-19cdf5928232"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+			(project "Microcontroller_Unit"
+				(path "/7ed63b94-d6cb-48bb-a5c9-1b6502ce39da"
+					(reference "R?")
 					(unit 1)
 				)
 			)

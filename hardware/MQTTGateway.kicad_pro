@@ -640,15 +640,11 @@
     ],
     [
       "59f7c7c9-cb86-4d70-a8ce-a4685283e69b",
-      "Outputs"
+      "Outputs_Isolated"
     ],
     [
       "399015c2-6547-45ba-99d6-e9d0efcd95ce",
       "Inputs_Iso"
-    ],
-    [
-      "3bdffd2f-f59f-4757-8c7c-f0054b898499",
-      "Outputs_ISOL"
     ]
   ],
   "text_variables": {}

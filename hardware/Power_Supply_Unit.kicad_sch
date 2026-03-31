@@ -1834,6 +1834,12 @@
 		(uuid "1ae6f9c5-bc51-4ae2-9334-ff899f4205c3")
 	)
 	(junction
+		(at 85.09 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "221f4978-eb87-4bbf-969e-5ba33273a633")
+	)
+	(junction
 		(at 163.83 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1892,12 +1898,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6aed04a5-4dd3-4de4-8474-7e977a9b0c03")
-	)
-	(junction
-		(at 88.9 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "74ec4e3e-2bc6-461f-9660-473bd5d13570")
 	)
 	(junction
 		(at 176.53 69.85)
@@ -2011,7 +2011,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 69.85) (xy 109.22 69.85)
+			(xy 85.09 69.85) (xy 109.22 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2041,7 +2041,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 57.15) (xy 88.9 57.15)
+			(xy 82.55 57.15) (xy 85.09 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2091,7 +2091,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 49.53) (xy 109.22 49.53)
+			(xy 101.6 49.53) (xy 109.22 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2181,7 +2181,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 59.69) (xy 88.9 59.69)
+			(xy 82.55 59.69) (xy 85.09 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2361,7 +2361,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 57.15) (xy 88.9 49.53)
+			(xy 85.09 57.15) (xy 85.09 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2521,7 +2521,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 59.69) (xy 88.9 69.85)
+			(xy 85.09 59.69) (xy 85.09 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2681,16 +2681,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 49.53) (xy 96.52 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e15a2cc2-919d-4c9b-ab2f-733889814425")
-	)
-	(wire
-		(pts
 			(xy 149.86 121.92) (xy 149.86 124.46)
 		)
 		(stroke
@@ -2728,6 +2718,16 @@
 			(type default)
 		)
 		(uuid "e9f4d34f-e177-47a9-9cdd-ef10136e6078")
+	)
+	(wire
+		(pts
+			(xy 85.09 49.53) (xy 93.98 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed139347-3204-4672-bee7-18a976da5ae2")
 	)
 	(wire
 		(pts
@@ -3027,7 +3027,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 201.93 55.88 0)
 			(effects
 				(font
@@ -3188,7 +3188,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 190.1952 63.5 0)
 			(effects
 				(font
@@ -3310,7 +3310,7 @@
 	)
 	(symbol
 		(lib_id "Diode:MRA4007T3G")
-		(at 100.33 49.53 180)
+		(at 97.79 49.53 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3318,7 +3318,7 @@
 		(dnp no)
 		(uuid "374c7748-8d68-4cac-97dc-2325e8d6c296")
 		(property "Reference" "D?"
-			(at 100.33 43.688 0)
+			(at 97.79 43.688 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3326,7 +3326,7 @@
 			)
 		)
 		(property "Value" "MRA4007T3G"
-			(at 100.584 45.72 0)
+			(at 98.044 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3334,7 +3334,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 100.33 45.085 0)
+			(at 97.79 45.085 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3343,7 +3343,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MRA4003T3-D.PDF"
-			(at 100.33 49.53 0)
+			(at 97.79 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3352,7 +3352,7 @@
 			)
 		)
 		(property "Description" "1000V, 1A, General Purpose Rectifier Diode, SMA(DO-214AC)"
-			(at 100.33 49.53 0)
+			(at 97.79 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3361,7 +3361,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 100.33 49.53 0)
+			(at 97.79 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3370,7 +3370,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 100.33 49.53 0)
+			(at 97.79 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3401,7 +3401,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 88.9 49.53 0)
+		(at 85.09 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3409,7 +3409,7 @@
 		(dnp no)
 		(uuid "4bd73b02-9f93-4473-b2a2-91dbeaaecce7")
 		(property "Reference" "#FLG?"
-			(at 88.9 47.625 0)
+			(at 85.09 47.625 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3418,7 +3418,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 84.582 45.72 0)
+			(at 80.772 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3427,7 +3427,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 49.53 0)
+			(at 85.09 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3436,7 +3436,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 88.9 49.53 0)
+			(at 85.09 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3445,7 +3445,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 88.9 49.53 0)
+			(at 85.09 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3814,7 +3814,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 203.708 64.77 90)
 			(effects
 				(font
@@ -4407,7 +4407,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 190.1952 115.57 0)
 			(effects
 				(font
@@ -4631,7 +4631,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 135.5852 115.57 0)
 			(effects
 				(font
@@ -4707,7 +4707,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 203.708 116.84 90)
 			(effects
 				(font
@@ -4757,7 +4757,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 81.28 57.15 0)
+		(at 77.47 57.15 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4766,7 +4766,7 @@
 		(dnp no)
 		(uuid "de722808-7ec9-47b8-a0cf-99202ac32234")
 		(property "Reference" "J?"
-			(at 78.74 57.1499 0)
+			(at 74.93 57.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4775,7 +4775,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 78.74 59.6899 0)
+			(at 74.93 59.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4785,7 +4785,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
-			(at 81.28 57.15 0)
+			(at 77.47 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4794,7 +4794,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 81.28 57.15 0)
+			(at 77.47 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4803,7 +4803,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 81.28 57.15 0)
+			(at 77.47 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4860,7 +4860,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 201.93 107.95 0)
 			(effects
 				(font
@@ -5113,7 +5113,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 135.5852 63.5 0)
 			(effects
 				(font
