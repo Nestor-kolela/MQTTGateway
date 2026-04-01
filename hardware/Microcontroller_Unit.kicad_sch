@@ -5255,7 +5255,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 41.91) (xy 72.39 41.91)
+			(xy 86.36 41.91) (xy 72.39 41.91)
 		)
 		(stroke
 			(width 0)
@@ -5302,6 +5302,16 @@
 			(type default)
 		)
 		(uuid "33d17c50-b906-4002-b787-696adab9a508")
+	)
+	(wire
+		(pts
+			(xy 72.39 39.37) (xy 72.39 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "343b8bf7-9273-404d-9e30-c5e57b707a5a")
 	)
 	(wire
 		(pts
@@ -6075,7 +6085,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 50.8) (xy 78.74 49.53)
+			(xy 80.01 50.8) (xy 80.01 49.53)
 		)
 		(stroke
 			(width 0)
@@ -6205,23 +6215,13 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 59.69) (xy 78.74 59.69)
+			(xy 72.39 59.69) (xy 80.01 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8b8c00f4-6bc8-4489-aca1-36663f069c49")
-	)
-	(wire
-		(pts
-			(xy 72.39 41.91) (xy 72.39 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d1318b0-b0e4-4ea2-bfe7-2c2d26d81f08")
 	)
 	(wire
 		(pts
@@ -6315,7 +6315,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 49.53) (xy 104.14 49.53)
+			(xy 80.01 49.53) (xy 104.14 49.53)
 		)
 		(stroke
 			(width 0)
@@ -6595,7 +6595,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 59.69) (xy 78.74 58.42)
+			(xy 80.01 59.69) (xy 80.01 58.42)
 		)
 		(stroke
 			(width 0)
@@ -7574,7 +7574,7 @@
 		(uuid "9fa8804e-79b0-466d-85ad-c252e4cd42c9")
 	)
 	(label "BOOT0"
-		(at 85.09 41.91 180)
+		(at 86.36 41.91 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7644,7 +7644,7 @@
 		(uuid "b9003c2c-c1ab-4f88-86e2-d6a0eaca22d2")
 	)
 	(label "BOOT0"
-		(at 78.74 49.53 0)
+		(at 80.01 49.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8769,7 +8769,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 78.74 54.61 0)
+		(at 80.01 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8778,7 +8778,7 @@
 		(fields_autoplaced yes)
 		(uuid "2ac005e6-ce82-404f-9a36-b12242f5a871")
 		(property "Reference" "R10"
-			(at 81.28 53.3399 0)
+			(at 82.55 53.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8787,7 +8787,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 81.28 55.8799 0)
+			(at 82.55 55.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8796,7 +8796,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 76.962 54.61 90)
+			(at 78.232 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8805,7 +8805,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 78.74 54.61 0)
+			(at 80.01 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8814,7 +8814,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 78.74 54.61 0)
+			(at 80.01 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -2849,7 +2849,7 @@
 			)
 			(project "Power_Supply_Unit"
 				(path "/478be161-26c6-450d-8101-6fd34e57b292"
-					(reference "#FLG02")
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -2925,7 +2925,7 @@
 			)
 			(project "Power_Supply_Unit"
 				(path "/478be161-26c6-450d-8101-6fd34e57b292"
-					(reference "C?")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -3010,7 +3010,7 @@
 			)
 			(project "Power_Supply_Unit"
 				(path "/478be161-26c6-450d-8101-6fd34e57b292"
-					(reference "D?")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -3086,7 +3086,7 @@
 			)
 			(project "Power_Supply_Unit"
 				(path "/478be161-26c6-450d-8101-6fd34e57b292"
-					(reference "C5")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -3162,7 +3162,7 @@
 			)
 			(project "Power_Supply_Unit"
 				(path "/478be161-26c6-450d-8101-6fd34e57b292"
-					(reference "C?")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -3397,7 +3397,7 @@
 			)
 			(project "Power_Supply_Unit"
 				(path "/478be161-26c6-450d-8101-6fd34e57b292"
-					(reference "#FLG03")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -3565,7 +3565,7 @@
 			)
 			(project "Power_Supply_Unit"
 				(path "/478be161-26c6-450d-8101-6fd34e57b292"
-					(reference "C2")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -3636,7 +3636,7 @@
 			)
 			(project "Power_Supply_Unit"
 				(path "/478be161-26c6-450d-8101-6fd34e57b292"
-					(reference "#PWR?")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -3712,7 +3712,7 @@
 			)
 			(project "Power_Supply_Unit"
 				(path "/478be161-26c6-450d-8101-6fd34e57b292"
-					(reference "C4")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -3788,7 +3788,7 @@
 			)
 			(project "Power_Supply_Unit"
 				(path "/478be161-26c6-450d-8101-6fd34e57b292"
-					(reference "R?")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -3864,7 +3864,7 @@
 			)
 			(project "Power_Supply_Unit"
 				(path "/478be161-26c6-450d-8101-6fd34e57b292"
-					(reference "C?")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -3941,7 +3941,7 @@
 			)
 			(project ""
 				(path "/478be161-26c6-450d-8101-6fd34e57b292"
-					(reference "U1")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -4013,7 +4013,7 @@
 			)
 			(project "Power_Supply_Unit"
 				(path "/478be161-26c6-450d-8101-6fd34e57b292"
-					(reference "#PWR04")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -4089,7 +4089,7 @@
 			)
 			(project "Power_Supply_Unit"
 				(path "/478be161-26c6-450d-8101-6fd34e57b292"
-					(reference "C1")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -4161,7 +4161,7 @@
 			)
 			(project "Power_Supply_Unit"
 				(path "/478be161-26c6-450d-8101-6fd34e57b292"
-					(reference "#PWR01")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -4305,7 +4305,7 @@
 			)
 			(project ""
 				(path "/478be161-26c6-450d-8101-6fd34e57b292"
-					(reference "#PWR03")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -4381,7 +4381,7 @@
 			)
 			(project "Power_Supply_Unit"
 				(path "/478be161-26c6-450d-8101-6fd34e57b292"
-					(reference "C6")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -4457,7 +4457,7 @@
 			)
 			(project "Power_Supply_Unit"
 				(path "/478be161-26c6-450d-8101-6fd34e57b292"
-					(reference "C?")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -4533,7 +4533,7 @@
 			)
 			(project "Power_Supply_Unit"
 				(path "/478be161-26c6-450d-8101-6fd34e57b292"
-					(reference "C3")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -4609,7 +4609,7 @@
 			)
 			(project "Power_Supply_Unit"
 				(path "/478be161-26c6-450d-8101-6fd34e57b292"
-					(reference "R1")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -4675,6 +4675,12 @@
 		(instances
 			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/84d35f5b-668b-4f6a-9ae9-c3f54bb13c83"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+			(project "Power_Supply_Unit"
+				(path "/478be161-26c6-450d-8101-6fd34e57b292"
 					(reference "#FLG02")
 					(unit 1)
 				)
@@ -4752,7 +4758,7 @@
 			)
 			(project "Power_Supply_Unit"
 				(path "/478be161-26c6-450d-8101-6fd34e57b292"
-					(reference "J?")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -4929,7 +4935,7 @@
 			)
 			(project "Power_Supply_Unit"
 				(path "/478be161-26c6-450d-8101-6fd34e57b292"
-					(reference "D4")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -5005,7 +5011,7 @@
 			)
 			(project "Power_Supply_Unit"
 				(path "/478be161-26c6-450d-8101-6fd34e57b292"
-					(reference "C?")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -5081,7 +5087,7 @@
 			)
 			(project "Power_Supply_Unit"
 				(path "/478be161-26c6-450d-8101-6fd34e57b292"
-					(reference "C?")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -5157,7 +5163,7 @@
 			)
 			(project "Power_Supply_Unit"
 				(path "/478be161-26c6-450d-8101-6fd34e57b292"
-					(reference "U2")
+					(reference "U1")
 					(unit 1)
 				)
 			)
