@@ -8487,7 +8487,7 @@
 			(uuid "de3fafa0-a598-4c2c-959d-5dd7c9707e27")
 		)
 		(instances
-			(project ""
+			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/750a3e25-fbc2-49dd-835b-2fb4ae79c768"
 					(reference "J3")
 					(unit 1)

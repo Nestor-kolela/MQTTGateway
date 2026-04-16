@@ -3604,7 +3604,7 @@
 			(uuid "d6f61b12-654f-40f5-ae66-d5bb388e9e2a")
 		)
 		(instances
-			(project ""
+			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/399015c2-6547-45ba-99d6-e9d0efcd95ce"
 					(reference "#PWR089")
 					(unit 1)
@@ -3866,7 +3866,7 @@
 			(uuid "8853cbd5-484a-43de-b19c-4ae61f90614d")
 		)
 		(instances
-			(project ""
+			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/399015c2-6547-45ba-99d6-e9d0efcd95ce"
 					(reference "U11")
 					(unit 4)
@@ -4234,7 +4234,7 @@
 			(uuid "dce06851-f15c-4670-b917-25be55991158")
 		)
 		(instances
-			(project ""
+			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/399015c2-6547-45ba-99d6-e9d0efcd95ce"
 					(reference "R81")
 					(unit 1)
@@ -4922,7 +4922,7 @@
 			(uuid "5a2fa29a-2b0c-4d03-90e4-207d833c5d15")
 		)
 		(instances
-			(project ""
+			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/399015c2-6547-45ba-99d6-e9d0efcd95ce"
 					(reference "R76")
 					(unit 1)
@@ -5312,7 +5312,7 @@
 			(uuid "1a1c1ece-ba96-4473-a11e-d73ebb6919f5")
 		)
 		(instances
-			(project ""
+			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/399015c2-6547-45ba-99d6-e9d0efcd95ce"
 					(reference "J22")
 					(unit 1)
@@ -5758,7 +5758,7 @@
 			(uuid "594303b9-3935-4609-80db-de93f9047757")
 		)
 		(instances
-			(project ""
+			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/399015c2-6547-45ba-99d6-e9d0efcd95ce"
 					(reference "C68")
 					(unit 1)
@@ -6266,7 +6266,7 @@
 			(uuid "8853cbd5-484a-43de-b19c-4ae61f90614e")
 		)
 		(instances
-			(project ""
+			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/399015c2-6547-45ba-99d6-e9d0efcd95ce"
 					(reference "U11")
 					(unit 2)
@@ -6418,7 +6418,7 @@
 			(uuid "a56b9952-c154-490a-a447-171760c2191b")
 		)
 		(instances
-			(project ""
+			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/399015c2-6547-45ba-99d6-e9d0efcd95ce"
 					(reference "R79")
 					(unit 1)
@@ -6682,7 +6682,7 @@
 			(uuid "8853cbd5-484a-43de-b19c-4ae61f90614f")
 		)
 		(instances
-			(project ""
+			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/399015c2-6547-45ba-99d6-e9d0efcd95ce"
 					(reference "U11")
 					(unit 3)
@@ -6974,7 +6974,7 @@
 			(uuid "7f2a8e68-b819-4933-af71-d48b4ffc463b")
 		)
 		(instances
-			(project ""
+			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/399015c2-6547-45ba-99d6-e9d0efcd95ce"
 					(reference "#FLG011")
 					(unit 1)
@@ -7270,7 +7270,7 @@
 			(uuid "5f8bd749-61a9-41a8-b06c-40f1c6ea22e7")
 		)
 		(instances
-			(project ""
+			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/399015c2-6547-45ba-99d6-e9d0efcd95ce"
 					(reference "#PWR090")
 					(unit 1)
@@ -7462,7 +7462,7 @@
 			(uuid "8853cbd5-484a-43de-b19c-4ae61f906150")
 		)
 		(instances
-			(project ""
+			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/399015c2-6547-45ba-99d6-e9d0efcd95ce"
 					(reference "U11")
 					(unit 1)

@@ -6811,7 +6811,7 @@
 			(uuid "1247a381-d445-4313-8e19-4f0bbff05a80")
 		)
 		(instances
-			(project ""
+			(project "MQTTGateway"
 				(path "/05707d4e-3d4a-41f6-9822-862f6f3b507e/602799df-dfd4-4aef-8cfd-8ceecb64908b"
 					(reference "#FLG06")
 					(unit 1)
